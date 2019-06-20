@@ -34,8 +34,8 @@ def using_uniq(haircuts)
       haircuts.uniq 
 end 
 
-def using_flatten()
-  new_strings.flatten
+def using_flatten(insturments)
+ insturments.flatten
 end
 
 def using_delete()
