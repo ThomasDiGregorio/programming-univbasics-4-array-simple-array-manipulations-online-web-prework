@@ -31,7 +31,7 @@ def using_insert(languages, new_language)
 end 
 
 def using_uniq(haircuts)
-      duplicate.uniq 
+      haircuts.uniq 
 end 
 
 def using_flatten()
