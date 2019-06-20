@@ -38,8 +38,8 @@ def using_flatten(insturments)
  insturments.flatten
 end
 
-def using_delete()
-  string.delete
+def using_delete(teachers, name)
+  teachers.delete(name)
 end
 
 def using_delete_at()
