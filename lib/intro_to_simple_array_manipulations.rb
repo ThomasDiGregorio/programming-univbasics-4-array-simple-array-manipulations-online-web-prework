@@ -42,8 +42,8 @@ def using_delete(teachers, name)
   teachers.delete(name)
 end
 
-def using_delete_at()
-  integer.delete_at 
+def using_delete_at(array,index)
+  array.delete_at(index) 
 end 
 
 
